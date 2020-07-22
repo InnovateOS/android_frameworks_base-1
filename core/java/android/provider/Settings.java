@@ -5265,6 +5265,7 @@ public final class Settings {
                 ANY_INTEGER_VALIDATOR;
 
         /**
+<<<<<<< HEAD
          * @hide
          */
         public static final String OMNI_BUTTON_BACKLIGHT_ON_TOUCH_ONLY =
@@ -5274,6 +5275,8 @@ public final class Settings {
                 BOOLEAN_VALIDATOR;
 
         /**
+=======
+>>>>>>> parent of cbddd8ef625... [1/3] base: add device settings parts
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
@@ -5346,6 +5349,7 @@ public final class Settings {
             DISPLAY_COLOR_MODE,
             ALARM_ALERT,
             NOTIFICATION_LIGHT_PULSE,
+<<<<<<< HEAD
             OMNI_NAVIGATION_BAR_RECENTS,
             OMNI_SYSTEM_PROXI_CHECK_ENABLED,
             OMNI_BUTTON_EXTRA_KEY_MAPPING,
@@ -5418,6 +5422,8 @@ public final class Settings {
             OMNI_BUTTON_BACKLIGHT_TIMEOUT,
             OMNI_BUTTON_BACKLIGHT_ON_TOUCH_ONLY,
             OMNI_DOZE_BRIGHTNESS_FORCE,
+=======
+>>>>>>> parent of cbddd8ef625... [1/3] base: add device settings parts
         };
 
         /**
@@ -5538,6 +5544,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(EGG_MODE);
             PRIVATE_SETTINGS.add(SHOW_BATTERY_PERCENT);
             PRIVATE_SETTINGS.add(DISPLAY_COLOR_MODE);
+<<<<<<< HEAD
             PRIVATE_SETTINGS.add(OMNI_NAVIGATION_BAR_RECENTS);
             PRIVATE_SETTINGS.add(OMNI_SYSTEM_PROXI_CHECK_ENABLED);
             PRIVATE_SETTINGS.add(OMNI_BUTTON_EXTRA_KEY_MAPPING);
@@ -5612,6 +5619,8 @@ public final class Settings {
             PRIVATE_SETTINGS.add(OMNI_BUTTON_BACKLIGHT_TIMEOUT);
             PRIVATE_SETTINGS.add(OMNI_BUTTON_BACKLIGHT_ON_TOUCH_ONLY);
             PRIVATE_SETTINGS.add(OMNI_DOZE_BRIGHTNESS_FORCE);
+=======
+>>>>>>> parent of cbddd8ef625... [1/3] base: add device settings parts
         }
 
         /**
@@ -5706,6 +5715,7 @@ public final class Settings {
             VALIDATORS.put(WIFI_STATIC_DNS2, WIFI_STATIC_DNS2_VALIDATOR);
             VALIDATORS.put(SHOW_BATTERY_PERCENT, SHOW_BATTERY_PERCENT_VALIDATOR);
             VALIDATORS.put(NOTIFICATION_LIGHT_PULSE, BOOLEAN_VALIDATOR);
+<<<<<<< HEAD
             VALIDATORS.put(OMNI_NAVIGATION_BAR_RECENTS, OMNI_NAVIGATION_BAR_RECENTS_VALIDATOR);
             VALIDATORS.put(OMNI_SYSTEM_PROXI_CHECK_ENABLED,
                     OMNI_SYSTEM_PROXI_CHECK_ENABLED_VALIDATOR);
@@ -5824,6 +5834,8 @@ public final class Settings {
             VALIDATORS.put(OMNI_BUTTON_BACKLIGHT_ON_TOUCH_ONLY,
                     OMNI_BUTTON_BACKLIGHT_ON_TOUCH_ONLY_VALIDATOR);
             VALIDATORS.put(OMNI_DOZE_BRIGHTNESS_FORCE, OMNI_DOZE_BRIGHTNESS_FORCE_VALIDATOR);
+=======
+>>>>>>> parent of cbddd8ef625... [1/3] base: add device settings parts
         }
 
         /**
